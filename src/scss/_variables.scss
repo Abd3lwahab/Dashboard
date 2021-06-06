@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;400;500;600;700&display=swap');
+
+$background: #151319;
+$primary-font: 'Roboto Slab', serif;
+$secondry-font: 'Nunito Sans', sans-serif;
+$background-gradient: linear-gradient(
+  144deg,
+  rgba(21, 19, 25, 1) 0%,
+  rgba(21, 19, 25, 1) 60%,
+  rgba(24, 22, 29, 1) 60%,
+  rgba(24, 22, 29, 1) 70%,
+  rgba(25, 24, 30, 1) 70%,
+  rgba(25, 24, 30, 1) 80%,
+  rgba(27, 25, 31, 1) 80%
+);
+
+$text-grey: #969696;

@@ -1,0 +1,12 @@
+// Import Bulma's core
+@import 'variables.scss';
+@import '~bulma/sass/utilities/_all';
+
+$family-primary: $primary-font;
+$text: $white-ter;
+$input-placeholder-color: #808184;
+
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~bulma/sass/utilities/_all';
+@import '~buefy/src/scss/buefy';

@@ -1,0 +1,82 @@
+@import '_customization';
+@import '_variables';
+
+.form {
+  margin: auto;
+  border-radius: 5px;
+  background-color: #232429;
+  padding: 35px 15px;
+  border: 1px solid #323238;
+  box-shadow: $toast-box-shadow;
+
+  @include sm {
+    padding: 35px 30px;
+  }
+}
+
+.form-content {
+  .label {
+    color: $white;
+    font-weight: 400;
+    font-family: $secondry-font;
+    font-size: 16px;
+
+    display: flex;
+
+    span {
+      width: 50%;
+
+      &:last-of-type {
+        text-align: end;
+      }
+    }
+
+    a {
+      color: $text-grey;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .input {
+    background-color: #232429;
+    border: 1px solid #4c4d50;
+    border-radius: 5px;
+    color: #e9eaed;
+    font-size: 16px;
+    font-family: $secondry-font;
+
+    &:hover {
+      border-color: #8d8d8d;
+    }
+
+    // &:focus {
+    //   border-color: transparent;
+    // }
+  }
+
+  .field:not(:last-child) {
+    margin-bottom: 0.9rem;
+  }
+
+  .buttons {
+    margin-top: 1.5rem;
+  }
+}
+
+.formExtraHeader {
+  font-size: 14px;
+  color: $text-grey;
+  text-transform: uppercase;
+}
+
+.formHeader {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.form-footer {
+  font-size: 15px;
+  margin-top: 1.5rem;
+}

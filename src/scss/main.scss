@@ -1,0 +1,39 @@
+// Import Bulma's core
+@import '_customization';
+@import '_variables';
+@import '_mixins';
+@import 'form';
+
+html {
+  background: $background-gradient;
+}
+
+.has-text-primary {
+  color: #4a4b52 !important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 0.5rem;
+  // @include md {
+  //   padding: 3rem 1.5rem;
+  // }
+  // @include sm {
+  //   padding: 3rem 1rem;
+  // }
+}
+
+.hero-body {
+  padding: 3rem 0.5rem;
+
+  @include sm {
+    padding: 3rem 1.5rem;
+  }
+}
+
+.help {
+  font-family: $secondry-font;
+}
